@@ -2,6 +2,9 @@
 
 > An example of using Que to schedule jobs in a Rails app
 
+The [`que`](https://github.com/chanks/que) gem is a Ruby job queue that uses
+PostgreSQL.
+
 ## Setup
 
 ```bash
