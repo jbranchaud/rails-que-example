@@ -1,7 +1,7 @@
 class OrdersController < ApplicationController
 
   def create
-    ProcessOrder.enqueue(order_params[:order_number])
+    ProcessOrder.enqueue(order_params[:order_number], run_at: 5.seconds.from_now)
     redirect_to action: :index
   end
 
