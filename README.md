@@ -20,3 +20,15 @@ $ rails s
 ```
 
 Open up `localhost:3000`
+
+## Details
+
+See `config/initializers/que.rb` for details on how `que` is being
+configured. You can override the default configurations using environment
+variables.
+
+For example,
+
+```bash
+$ QUE_MODE=sync WORKER_COUNT=8 rails s
+```
