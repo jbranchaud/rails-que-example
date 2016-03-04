@@ -15,7 +15,7 @@ $ rake db:migrate
 
 ## Run
 
-```
+```bash
 $ rails s
 ```
 
