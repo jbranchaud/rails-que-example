@@ -32,3 +32,10 @@ For example,
 ```bash
 $ QUE_MODE=sync WORKER_COUNT=8 rails s
 ```
+
+## License
+
+&copy; 2016 Josh Branchaud
+
+This repository is licensed under the MIT license. See `LICENSE` for more
+details.
