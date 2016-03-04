@@ -9,3 +9,11 @@ $ bundle install
 $ rake db:create
 $ rake db:migrate
 ```
+
+## Run
+
+```
+$ rails s
+```
+
+Open up `localhost:3000`
