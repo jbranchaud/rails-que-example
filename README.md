@@ -5,6 +5,19 @@
 The [`que`](https://github.com/chanks/que) gem is a Ruby job queue that uses
 PostgreSQL.
 
+## Usage
+
+Start up the rails server:
+
+```bash
+$ rails s
+```
+
+Open up `localhost:3000`.
+
+Click `New Order` and create a new order with an order number. The order
+will be created asynchronously via a job scheduled by `que`.
+
 ## Setup
 
 ```bash
@@ -12,14 +25,6 @@ $ bundle install
 $ rake db:create
 $ rake db:migrate
 ```
-
-## Run
-
-```bash
-$ rails s
-```
-
-Open up `localhost:3000`
 
 ## Details
 
